@@ -39,6 +39,9 @@
     },
     "phone_number": {
       "type": "string"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_for_sponsors",
+  "info": {
+    "singularName": "application-for-sponsor",
+    "pluralName": "application-for-sponsors",
+    "displayName": "Application for sponsor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "second_name": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

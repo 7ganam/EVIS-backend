@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_for_medias",
+  "info": {
+    "singularName": "application-for-media",
+    "pluralName": "application-for-medias",
+    "displayName": "Application for media"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "second_name": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "zip_code": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

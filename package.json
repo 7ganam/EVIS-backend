@@ -18,7 +18,8 @@
     "better-sqlite3": "7.4.6",
     "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "strapi-plugin-populate-deep": "^0.1.2"
   },
   "author": {
     "name": "A Strapi developer"

@@ -9446,6 +9446,11 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.2.1.tgz#00e260ec3901333537125f81282b9296b00d7304"
   integrity sha512-D/uYFWkI/31OrnKmXZqGAGK5GbQRPp/BWA1nuITcc6ICblhhuQUPHS5E2GSCVS7Hwhf4ciq8qsATwBUxv+lI6w==
 
+strapi-plugin-populate-deep@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-0.1.2.tgz#89e9fa0dd10bb1c57336625f765cff98950dafa2"
+  integrity sha512-cYmK5g4QqrGAWjUzEnd6P1XcqeXFcu/2yk/lg3ClQDnp46vb9i03CT7tW2YHz9JSf8g371iq0JPholL1q7Q1CA==
+
 stream-browserify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-3.0.0.tgz#22b0a2850cdf6503e73085da1fc7b7d0c2122f2f"

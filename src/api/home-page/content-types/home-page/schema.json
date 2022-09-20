@@ -60,6 +60,11 @@
       "type": "component",
       "repeatable": true,
       "component": "ui.youtube-video"
+    },
+    "event_features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.card"
     }
   }
 }

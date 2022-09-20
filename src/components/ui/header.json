@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_headers",
+  "info": {
+    "displayName": "Header",
+    "icon": "id-card"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

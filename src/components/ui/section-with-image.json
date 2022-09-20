@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_section_with_images",
+  "info": {
+    "displayName": "Section With Image",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "collectionName": "components_ui_cards",
   "info": {
     "displayName": "Card",
-    "icon": "address-book"
+    "icon": "address-book",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,20 +11,21 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "paragraph": {
       "type": "text"
     },
     "action_button_text": {
-      "type": "text"
+      "type": "string"
     },
     "action_button_url": {
       "type": "string"

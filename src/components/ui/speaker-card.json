@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ui_speaker_cards",
+  "info": {
+    "displayName": "speaker-card",
+    "icon": "child"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "company": {
+      "type": "string"
+    }
+  }
+}

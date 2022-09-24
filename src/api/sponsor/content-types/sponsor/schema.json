@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sponsors",
+  "info": {
+    "singularName": "sponsor",
+    "pluralName": "sponsors",
+    "displayName": "Sponsors"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sponsor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.image-with-title",
+      "required": true
+    }
+  }
+}

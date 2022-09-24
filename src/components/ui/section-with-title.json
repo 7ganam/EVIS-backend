@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_section_with_title_s",
+  "info": {
+    "displayName": "section with title ",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

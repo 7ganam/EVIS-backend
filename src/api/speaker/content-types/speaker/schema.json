@@ -12,28 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "title": {
-      "type": "string",
-      "required": false
-    },
-    "organization": {
-      "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "about": {
       "type": "text"
     },
@@ -42,6 +20,12 @@
     },
     "slug": {
       "type": "string"
+    },
+    "speaker": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.speaker-card",
+      "required": true
     }
   }
 }

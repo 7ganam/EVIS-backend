@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "speakers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.speaker-card"
+    }
+  }
+}

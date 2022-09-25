@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "find_us_section": {
+      "displayName": "Find us section",
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.find-us-section"
+    },
+    "innovation_team": {
+      "displayName": "innovation team",
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.innovation-team"
+    },
+    "about_nirvana": {
+      "displayName": "About Nirvana",
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.about-nirvana"
+    }
+  }
+}

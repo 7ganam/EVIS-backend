@@ -42,6 +42,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "email": {
+      "type": "email"
     }
   }
 }

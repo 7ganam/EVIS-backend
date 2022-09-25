@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_ui_find_us_sections",
+  "info": {
+    "displayName": "Find us section",
+    "icon": "location-arrow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "building": {
+      "type": "string"
+    },
+    "emirate": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "contact_email": {
+      "type": "email"
+    },
+    "google_maps_location": {
+      "type": "richtext"
+    }
+  }
+}

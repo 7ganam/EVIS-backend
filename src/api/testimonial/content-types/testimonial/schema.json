@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quote": {
+      "type": "richtext"
+    },
+    "speaker_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.section-with-image"
+    },
+    "video_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.youtube-video"
+    }
+  }
+}

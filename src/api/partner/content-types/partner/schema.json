@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partners",
+  "info": {
+    "singularName": "partner",
+    "pluralName": "partners",
+    "displayName": "Partners"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "partner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.image-with-title"
+    }
+  }
+}

@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "speakers": {
-      "type": "component",
-      "repeatable": true,
-      "component": "ui.speaker-card"
-    },
     "aboutEvis": {
       "type": "component",
       "repeatable": false,
@@ -62,6 +57,11 @@
       "type": "component",
       "repeatable": false,
       "component": "ui.text"
+    },
+    "speakers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::speaker.speaker"
     }
   }
 }

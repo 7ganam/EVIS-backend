@@ -11,10 +11,8 @@
       "type": "string",
       "required": true
     },
-    "paragraphs": {
-      "type": "component",
-      "repeatable": true,
-      "component": "ui.text"
+    "paragragh": {
+      "type": "text"
     }
   }
 }

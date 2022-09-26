@@ -21,10 +21,31 @@
     "slug": {
       "type": "string"
     },
-    "speaker": {
-      "type": "component",
-      "repeatable": true,
-      "component": "ui.speaker-card",
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "company": {
+      "type": "text"
+    },
+    "year": {
+      "type": "enumeration",
+      "enum": [
+        "year 2022",
+        "year 2023",
+        "both"
+      ],
       "required": true
     }
   }

@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agendas",
+  "info": {
+    "singularName": "agenda",
+    "pluralName": "agendas",
+    "displayName": "Agenda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "first_body": {
+      "type": "richtext"
+    },
+    "second_body": {
+      "type": "richtext"
+    },
+    "agenda_title": {
+      "type": "string"
+    },
+    "schedule_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "download_button_text": {
+      "type": "string"
+    },
+    "agenda_name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "download_link": {
+      "type": "string"
+    }
+  }
+}

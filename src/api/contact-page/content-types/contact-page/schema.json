@@ -12,23 +12,58 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "find_us_section": {
-      "displayName": "Find us section",
-      "type": "component",
-      "repeatable": false,
-      "component": "ui.find-us-section"
+    "find_us_title": {
+      "type": "string"
     },
-    "innovation_team": {
-      "displayName": "innovation team",
-      "type": "component",
-      "repeatable": false,
-      "component": "ui.innovation-team"
+    "find_us_area": {
+      "type": "string"
     },
-    "about_nirvana": {
-      "displayName": "About Nirvana",
-      "type": "component",
-      "repeatable": false,
-      "component": "ui.about-nirvana"
+    "find_us_building": {
+      "type": "string"
+    },
+    "find_us_emirate": {
+      "type": "string"
+    },
+    "find_us_country": {
+      "type": "string"
+    },
+    "contact_email": {
+      "type": "email"
+    },
+    "google_maps_location": {
+      "type": "richtext"
+    },
+    "about_nirvana_title": {
+      "type": "string"
+    },
+    "about_nirvana_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about_nirvana_paragraph": {
+      "type": "text"
+    },
+    "nirvana_website": {
+      "type": "string"
+    },
+    "about_nirvana_second_title": {
+      "type": "string"
+    },
+    "about_exhibition": {
+      "type": "text"
+    },
+    "nirvana_website_text_to_display": {
+      "type": "string"
+    },
+    "title_of_innovation_team": {
+      "type": "string"
     }
   }
 }

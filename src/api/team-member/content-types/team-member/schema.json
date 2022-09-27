@@ -1,11 +1,15 @@
 {
-  "collectionName": "components_ui_team_members",
+  "kind": "collectionType",
+  "collectionName": "team_members",
   "info": {
-    "displayName": "team_member",
-    "icon": "person-booth",
-    "description": ""
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "team_member"
   },
-  "options": {},
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
   "attributes": {
     "position": {
       "type": "string"
@@ -14,15 +18,14 @@
       "type": "string"
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "member_email": {
       "type": "email"

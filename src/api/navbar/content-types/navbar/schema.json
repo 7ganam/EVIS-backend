@@ -4,32 +4,38 @@
   "info": {
     "singularName": "navbar",
     "pluralName": "navbars",
-    "displayName": "Navbar"
+    "displayName": "Navbar",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "WebsiteLogo": {
+    "LeftLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "MinistryLogo": {
+    "RightLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Headline": {
+      "type": "string"
     }
   }
 }

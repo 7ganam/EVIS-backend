@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news-article",
     "pluralName": "news-articles",
-    "displayName": "News Article"
+    "displayName": "News Article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,23 +16,22 @@
       "type": "string"
     },
     "article_photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "date": {
       "type": "date"
     },
     "content": {
-      "type": "richtext"
-    },
-    "button_text": {
-      "type": "string"
+      "type": "richtext",
+      "required": false
     }
   }
 }

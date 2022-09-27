@@ -16,12 +16,30 @@
       "type": "string"
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "key_partner": {
+      "type": "boolean"
+    },
+    "sponsor": {
+      "type": "boolean"
+    },
+    "international_media_partner": {
+      "type": "boolean"
+    },
+    "knowledge_partner": {
+      "type": "boolean"
+    },
+    "research_partner": {
+      "type": "boolean"
+    },
+    "media_partner": {
+      "type": "boolean"
     }
   }
 }

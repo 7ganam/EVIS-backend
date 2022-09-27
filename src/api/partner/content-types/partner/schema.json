@@ -12,10 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "partner": {
-      "type": "component",
-      "repeatable": false,
-      "component": "ui.image-with-title"
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

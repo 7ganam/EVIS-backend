@@ -4,7 +4,8 @@
   "info": {
     "singularName": "partner",
     "pluralName": "partners",
-    "displayName": "Partners"
+    "displayName": "Partners",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +14,7 @@
   "attributes": {
     "partner": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "ui.image-with-title"
     }
   }

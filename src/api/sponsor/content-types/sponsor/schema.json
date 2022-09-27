@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sponsor",
     "pluralName": "sponsors",
-    "displayName": "Sponsors"
+    "displayName": "Sponsors",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,7 +14,7 @@
   "attributes": {
     "sponsor": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "ui.image-with-title",
       "required": true
     }

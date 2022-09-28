@@ -40,6 +40,15 @@
     },
     "media_partner": {
       "type": "boolean"
+    },
+    "year": {
+      "type": "enumeration",
+      "enum": [
+        "year 2022",
+        "year 2023",
+        "both"
+      ],
+      "required": true
     }
   }
 }

@@ -12,75 +12,57 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "first_title": {
-      "type": "string"
-    },
-    "paragr_with_image_card": {
+    "why_exhibit_cards": {
       "type": "component",
       "repeatable": true,
       "component": "ui.section-with-image"
     },
-    "second_title": {
-      "type": "string"
-    },
-    "third_title": {
-      "type": "string"
-    },
-    "card_with_image": {
+    "exhibition_features_cards": {
       "type": "component",
       "repeatable": true,
       "component": "ui.card"
-    },
-    "fourth_title": {
-      "type": "string"
     },
     "by_exhibiting_cards": {
       "type": "component",
       "repeatable": true,
       "component": "ui.header"
     },
-    "fifth_title": {
+    "first_core_sector_title": {
       "type": "string"
     },
-    "expect_to_meet_cards_text": {
-      "type": "component",
-      "repeatable": true,
-      "component": "ui.youtube-video"
-    },
-    "core_sectors_title": {
+    "second_core_sector_title": {
       "type": "string"
     },
-    "first_sector_title": {
+    "third_core_sector_title": {
+      "type": "string"
+    },
+    "fourth_core_sector_title": {
       "type": "string"
     },
     "first_sector_list_items": {
       "type": "component",
       "repeatable": true,
-      "component": "ui.youtube-video"
-    },
-    "second_sector_title": {
-      "type": "string"
+      "component": "ui.text"
     },
     "second_sector_list_items": {
       "type": "component",
       "repeatable": true,
-      "component": "ui.youtube-video"
-    },
-    "third_sector_title": {
-      "type": "string"
+      "component": "ui.text"
     },
     "third_sector_list_items": {
       "type": "component",
       "repeatable": true,
-      "component": "ui.youtube-video"
-    },
-    "fourth_sector_title": {
-      "type": "string"
+      "component": "ui.text"
     },
     "fourth_sector_list_items": {
       "type": "component",
       "repeatable": true,
-      "component": "ui.youtube-video"
+      "component": "ui.text"
+    },
+    "expect_to_meet_cards_text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.text"
     }
   }
 }

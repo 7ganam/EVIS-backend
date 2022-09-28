@@ -1,0 +1,86 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_exhibit_pages",
+  "info": {
+    "singularName": "why-exhibit-page",
+    "pluralName": "why-exhibit-pages",
+    "displayName": "Why Exhibit Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_title": {
+      "type": "string"
+    },
+    "paragr_with_image_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.section-with-image"
+    },
+    "second_title": {
+      "type": "string"
+    },
+    "third_title": {
+      "type": "string"
+    },
+    "card_with_image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.card"
+    },
+    "fourth_title": {
+      "type": "string"
+    },
+    "by_exhibiting_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.header"
+    },
+    "fifth_title": {
+      "type": "string"
+    },
+    "expect_to_meet_cards_text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.youtube-video"
+    },
+    "core_sectors_title": {
+      "type": "string"
+    },
+    "first_sector_title": {
+      "type": "string"
+    },
+    "first_sector_list_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.youtube-video"
+    },
+    "second_sector_title": {
+      "type": "string"
+    },
+    "second_sector_list_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.youtube-video"
+    },
+    "third_sector_title": {
+      "type": "string"
+    },
+    "third_sector_list_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.youtube-video"
+    },
+    "fourth_sector_title": {
+      "type": "string"
+    },
+    "fourth_sector_list_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.youtube-video"
+    }
+  }
+}

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * agenda service
+ * agenda-page service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::agenda.agenda');
+module.exports = createCoreService('api::agenda-page.agenda-page');

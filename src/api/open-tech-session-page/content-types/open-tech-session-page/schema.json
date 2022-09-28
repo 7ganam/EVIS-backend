@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "open_tech_session_pages",
+  "info": {
+    "singularName": "open-tech-session-page",
+    "pluralName": "open-tech-session-pages",
+    "displayName": "Open Tech Session Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mian_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "first_body": {
+      "type": "richtext"
+    },
+    "second_body": {
+      "type": "richtext"
+    },
+    "agenda_title": {
+      "type": "string"
+    },
+    "schedule_images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "download_link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,27 +1,25 @@
 {
-  "kind": "collectionType",
-  "collectionName": "agendas",
+  "kind": "singleType",
+  "collectionName": "agenda_pages",
   "info": {
-    "singularName": "agenda",
-    "pluralName": "agendas",
-    "displayName": "Agenda",
-    "description": ""
+    "singularName": "agenda-page",
+    "pluralName": "agenda-pages",
+    "displayName": "Agenda Page"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "main_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
+    "main_Image": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "first_body": {
       "type": "richtext"
@@ -33,23 +31,14 @@
       "type": "string"
     },
     "schedule_images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
-    },
-    "download_button_text": {
-      "type": "string"
-    },
-    "agenda_name": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      ],
+      "type": "media",
+      "multiple": true
     },
     "download_link": {
       "type": "string"

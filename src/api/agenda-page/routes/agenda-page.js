@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * agenda router
+ * agenda-page router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::agenda.agenda');
+module.exports = createCoreRouter('api::agenda-page.agenda-page');

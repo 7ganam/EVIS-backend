@@ -18,7 +18,7 @@
       "component": "ui.youtube-video"
     },
     "quote": {
-      "type": "string"
+      "type": "text"
     },
     "position": {
       "type": "string"
@@ -27,14 +27,15 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

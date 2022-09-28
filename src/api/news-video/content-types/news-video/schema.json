@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_videos",
+  "info": {
+    "singularName": "news-video",
+    "pluralName": "news-videos",
+    "displayName": "Evis in news",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "news_link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

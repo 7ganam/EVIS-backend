@@ -13,12 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "photo": {
       "type": "media",
       "multiple": true,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -27,7 +28,8 @@
       ]
     },
     "news_link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

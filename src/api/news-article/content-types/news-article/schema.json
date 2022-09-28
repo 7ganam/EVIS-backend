@@ -13,12 +13,13 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "article_photo": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -27,11 +28,12 @@
       ]
     },
     "date": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "content": {
       "type": "richtext",
-      "required": false
+      "required": true
     }
   }
 }

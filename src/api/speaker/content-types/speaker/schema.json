@@ -4,7 +4,7 @@
   "info": {
     "singularName": "speaker",
     "pluralName": "speakers",
-    "displayName": "Speaker",
+    "displayName": "Speakers",
     "description": ""
   },
   "options": {
@@ -12,28 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "title": {
-      "type": "string",
-      "required": false
-    },
-    "organization": {
-      "type": "string"
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "about": {
       "type": "text"
     },
@@ -42,6 +20,33 @@
     },
     "slug": {
       "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "company": {
+      "type": "text"
+    },
+    "year": {
+      "type": "enumeration",
+      "enum": [
+        "year 2022",
+        "year 2023",
+        "both"
+      ],
+      "required": true
     }
   }
 }

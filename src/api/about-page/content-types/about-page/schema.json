@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutEvis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.section-with-title",
+      "required": true
+    },
+    "exhibition": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.section-with-image",
+      "required": true
+    },
+    "conference": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.section-with-image",
+      "required": true
+    },
+    "topics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.text"
+    },
+    "sessions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.section-with-image",
+      "required": false
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.youtube-video",
+      "required": false
+    },
+    "venue": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.section-with-title",
+      "required": false
+    },
+    "mapContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.text"
+    },
+    "speakers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::speaker.speaker"
+    }
+  }
+}

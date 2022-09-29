@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sponsors",
+  "info": {
+    "singularName": "sponsor",
+    "pluralName": "sponsors",
+    "displayName": "Sponsors",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "key_partner": {
+      "type": "boolean"
+    },
+    "sponsor": {
+      "type": "boolean"
+    },
+    "international_media_partner": {
+      "type": "boolean"
+    },
+    "knowledge_partner": {
+      "type": "boolean"
+    },
+    "research_partner": {
+      "type": "boolean"
+    },
+    "media_partner": {
+      "type": "boolean"
+    },
+    "year": {
+      "type": "enumeration",
+      "enum": [
+        "year 2022",
+        "year 2023",
+        "both"
+      ],
+      "required": true
+    }
+  }
+}

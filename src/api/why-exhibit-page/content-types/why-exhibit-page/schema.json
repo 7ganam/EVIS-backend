@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "why_exhibit_cards": {
+    "why_exhibit_sections": {
       "type": "component",
       "repeatable": true,
       "component": "ui.section-with-image"

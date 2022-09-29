@@ -120,7 +120,7 @@
     "tour_number_of_adults": {
       "type": "integer"
     },
-    "hotel_number_of_children": {
+    "tour_number_of_children": {
       "type": "integer"
     },
     "tour_type": {

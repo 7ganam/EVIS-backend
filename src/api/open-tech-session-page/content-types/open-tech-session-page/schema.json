@@ -26,7 +26,7 @@
     "download_link": {
       "type": "string"
     },
-    "main_image": {
+    "header": {
       "type": "component",
       "repeatable": false,
       "component": "ui.header"

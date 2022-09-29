@@ -1,0 +1,150 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_for_visas",
+  "info": {
+    "singularName": "application-for-visa",
+    "pluralName": "application-for-visas",
+    "displayName": "Application for visa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "second_email": {
+      "type": "string"
+    },
+    "ticket_type": {
+      "type": "enumeration",
+      "enum": [
+        "One Way",
+        "Round Trip",
+        "Multi City"
+      ]
+    },
+    "flight_class": {
+      "type": "enumeration",
+      "enum": [
+        "First",
+        "Business",
+        "Economy"
+      ]
+    },
+    "leaving_from": {
+      "type": "string"
+    },
+    "arriving_to": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "departure_date": {
+      "type": "date"
+    },
+    "return_date": {
+      "type": "date"
+    },
+    "flight_number_of_adults": {
+      "type": "integer"
+    },
+    "flight_number_of_children": {
+      "type": "integer"
+    },
+    "flight_number_of_infants": {
+      "type": "integer"
+    },
+    "staying_city": {
+      "type": "string"
+    },
+    "check_in_date": {
+      "type": "date"
+    },
+    "check_out_date": {
+      "type": "date"
+    },
+    "occupancy": {
+      "type": "enumeration",
+      "enum": [
+        "Single",
+        "Double",
+        "Other"
+      ]
+    },
+    "meal_plan": {
+      "type": "enumeration",
+      "enum": [
+        "Bed & Breakfast",
+        "Breakfast & lunch",
+        "Breakfast & Dinner",
+        "Breakfast, Lunch & Dinner"
+      ]
+    },
+    "hotel_number_of_adults": {
+      "type": "integer"
+    },
+    "flight_number_of_children_and_age": {
+      "type": "text"
+    },
+    "flight_number_of_infants_and_age": {
+      "type": "text"
+    },
+    "pick_up_date": {
+      "type": "date"
+    },
+    "pick_up_time": {
+      "type": "time"
+    },
+    "pick_up_location": {
+      "type": "text"
+    },
+    "drop_off_location": {
+      "type": "text"
+    },
+    "number_of_passengers": {
+      "type": "integer"
+    },
+    "car_prefered": {
+      "type": "string"
+    },
+    "preferred_tour_city": {
+      "type": "string"
+    },
+    "tour_date": {
+      "type": "date"
+    },
+    "tour_number_of_adults": {
+      "type": "integer"
+    },
+    "hotel_number_of_children": {
+      "type": "integer"
+    },
+    "tour_type": {
+      "type": "enumeration",
+      "enum": [
+        "Half Day Tour",
+        "Full Day Tour"
+      ]
+    },
+    "visa_type": {
+      "type": "enumeration",
+      "enum": [
+        "Days: 30",
+        "Days: 90"
+      ]
+    },
+    "passport_name": {
+      "type": "string"
+    },
+    "visa_phone_number": {
+      "type": "biginteger"
+    },
+    "visa_email": {
+      "type": "email"
+    }
+  }
+}

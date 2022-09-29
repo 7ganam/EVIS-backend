@@ -87,10 +87,10 @@
     "hotel_number_of_adults": {
       "type": "integer"
     },
-    "flight_number_of_children_and_age": {
+    "hotel_number_of_children_and_age": {
       "type": "text"
     },
-    "flight_number_of_infants_and_age": {
+    "hotel_number_of_infants_and_age": {
       "type": "text"
     },
     "pick_up_date": {

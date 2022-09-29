@@ -19,20 +19,10 @@
       "type": "string"
     },
     "ticket_type": {
-      "type": "enumeration",
-      "enum": [
-        "One Way",
-        "Round Trip",
-        "Multi City"
-      ]
+      "type": "string"
     },
     "flight_class": {
-      "type": "enumeration",
-      "enum": [
-        "First",
-        "Business",
-        "Economy"
-      ]
+      "type": "string"
     },
     "leaving_from": {
       "type": "string"
@@ -40,52 +30,38 @@
     "arriving_to": {
       "type": "string"
     },
-    "Email": {
-      "type": "email"
-    },
     "departure_date": {
-      "type": "date"
+      "type": "string"
     },
     "return_date": {
-      "type": "date"
+      "type": "string"
     },
     "flight_number_of_adults": {
-      "type": "integer"
+      "type": "string"
     },
     "flight_number_of_children": {
-      "type": "integer"
+      "type": "string"
     },
     "flight_number_of_infants": {
-      "type": "integer"
+      "type": "string"
     },
     "staying_city": {
       "type": "string"
     },
     "check_in_date": {
-      "type": "date"
+      "type": "string"
     },
     "check_out_date": {
-      "type": "date"
+      "type": "string"
     },
     "occupancy": {
-      "type": "enumeration",
-      "enum": [
-        "Single",
-        "Double",
-        "Other"
-      ]
+      "type": "string"
     },
     "meal_plan": {
-      "type": "enumeration",
-      "enum": [
-        "Bed & Breakfast",
-        "Breakfast & lunch",
-        "Breakfast & Dinner",
-        "Breakfast, Lunch & Dinner"
-      ]
+      "type": "string"
     },
     "hotel_number_of_adults": {
-      "type": "integer"
+      "type": "string"
     },
     "hotel_number_of_children_and_age": {
       "type": "text"
@@ -94,10 +70,10 @@
       "type": "text"
     },
     "pick_up_date": {
-      "type": "date"
+      "type": "string"
     },
     "pick_up_time": {
-      "type": "time"
+      "type": "string"
     },
     "pick_up_location": {
       "type": "text"
@@ -106,7 +82,7 @@
       "type": "text"
     },
     "number_of_passengers": {
-      "type": "integer"
+      "type": "string"
     },
     "car_preferred": {
       "type": "string"
@@ -115,36 +91,31 @@
       "type": "string"
     },
     "tour_date": {
-      "type": "date"
+      "type": "string"
     },
     "tour_number_of_adults": {
-      "type": "integer"
+      "type": "string"
     },
     "tour_number_of_children": {
-      "type": "integer"
+      "type": "string"
     },
     "tour_type": {
-      "type": "enumeration",
-      "enum": [
-        "Half Day Tour",
-        "Full Day Tour"
-      ]
+      "type": "string"
     },
     "visa_type": {
-      "type": "enumeration",
-      "enum": [
-        "Days: 30",
-        "Days: 90"
-      ]
+      "type": "string"
     },
     "passport_name": {
       "type": "string"
     },
     "visa_phone_number": {
-      "type": "biginteger"
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
     },
     "visa_email": {
-      "type": "email"
+      "type": "string"
     }
   }
 }

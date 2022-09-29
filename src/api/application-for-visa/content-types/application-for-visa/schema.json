@@ -108,7 +108,7 @@
     "number_of_passengers": {
       "type": "integer"
     },
-    "car_prefered": {
+    "car_preferred": {
       "type": "string"
     },
     "preferred_tour_city": {

@@ -15,7 +15,7 @@
     "first_name": {
       "type": "string"
     },
-    "second_email": {
+    "second_name": {
       "type": "string"
     },
     "ticket_type": {

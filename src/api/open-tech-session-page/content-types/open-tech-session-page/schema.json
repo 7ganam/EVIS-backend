@@ -23,9 +23,6 @@
         "audios"
       ]
     },
-    "download_link": {
-      "type": "string"
-    },
     "header": {
       "type": "component",
       "repeatable": false,
@@ -36,6 +33,13 @@
     },
     "second_body": {
       "type": "text"
+    },
+    "download_link": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "agenda_pages",
+  "info": {
+    "singularName": "agenda-page",
+    "pluralName": "agenda-pages",
+    "displayName": "Conference Agenda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "schedule_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "download_link": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.header"
+    },
+    "first_body": {
+      "type": "text"
+    },
+    "second_body": {
+      "type": "text"
+    }
+  }
+}

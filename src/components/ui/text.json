@@ -2,12 +2,13 @@
   "collectionName": "components_ui_texts",
   "info": {
     "displayName": "text",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "text": {
-      "type": "text",
+      "type": "string",
       "required": true
     }
   }

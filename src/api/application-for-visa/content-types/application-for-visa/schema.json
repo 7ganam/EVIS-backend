@@ -1,0 +1,121 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_for_visas",
+  "info": {
+    "singularName": "application-for-visa",
+    "pluralName": "application-for-visas",
+    "displayName": "Application for visa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "second_name": {
+      "type": "string"
+    },
+    "ticket_type": {
+      "type": "string"
+    },
+    "flight_class": {
+      "type": "string"
+    },
+    "leaving_from": {
+      "type": "string"
+    },
+    "arriving_to": {
+      "type": "string"
+    },
+    "departure_date": {
+      "type": "string"
+    },
+    "return_date": {
+      "type": "string"
+    },
+    "flight_number_of_adults": {
+      "type": "string"
+    },
+    "flight_number_of_children": {
+      "type": "string"
+    },
+    "flight_number_of_infants": {
+      "type": "string"
+    },
+    "staying_city": {
+      "type": "string"
+    },
+    "check_in_date": {
+      "type": "string"
+    },
+    "check_out_date": {
+      "type": "string"
+    },
+    "occupancy": {
+      "type": "string"
+    },
+    "meal_plan": {
+      "type": "string"
+    },
+    "hotel_number_of_adults": {
+      "type": "string"
+    },
+    "hotel_number_of_children_and_age": {
+      "type": "text"
+    },
+    "hotel_number_of_infants_and_age": {
+      "type": "text"
+    },
+    "pick_up_date": {
+      "type": "string"
+    },
+    "pick_up_time": {
+      "type": "string"
+    },
+    "pick_up_location": {
+      "type": "text"
+    },
+    "drop_off_location": {
+      "type": "text"
+    },
+    "number_of_passengers": {
+      "type": "string"
+    },
+    "car_preferred": {
+      "type": "string"
+    },
+    "preferred_tour_city": {
+      "type": "string"
+    },
+    "tour_date": {
+      "type": "string"
+    },
+    "tour_number_of_adults": {
+      "type": "string"
+    },
+    "tour_number_of_children": {
+      "type": "string"
+    },
+    "tour_type": {
+      "type": "string"
+    },
+    "visa_type": {
+      "type": "string"
+    },
+    "passport_name": {
+      "type": "string"
+    },
+    "visa_phone_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "visa_email": {
+      "type": "string"
+    }
+  }
+}

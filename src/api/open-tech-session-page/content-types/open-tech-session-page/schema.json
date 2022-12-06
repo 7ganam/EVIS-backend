@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "open_tech_session_pages",
+  "info": {
+    "singularName": "open-tech-session-page",
+    "pluralName": "open-tech-session-pages",
+    "displayName": "OpenTech Agenda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "schedule_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "download_link": {
+      "type": "string"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.header"
+    },
+    "first_body": {
+      "type": "text"
+    },
+    "second_body": {
+      "type": "text"
+    }
+  }
+}

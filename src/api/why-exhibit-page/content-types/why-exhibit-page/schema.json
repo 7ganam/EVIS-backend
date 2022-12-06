@@ -1,0 +1,68 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_exhibit_pages",
+  "info": {
+    "singularName": "why-exhibit-page",
+    "pluralName": "why-exhibit-pages",
+    "displayName": "Why Exhibit Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "why_exhibit_sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.section-with-image"
+    },
+    "exhibition_features_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.card"
+    },
+    "by_exhibiting_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.header"
+    },
+    "first_core_sector_title": {
+      "type": "string"
+    },
+    "second_core_sector_title": {
+      "type": "string"
+    },
+    "third_core_sector_title": {
+      "type": "string"
+    },
+    "fourth_core_sector_title": {
+      "type": "string"
+    },
+    "first_sector_list_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.text"
+    },
+    "second_sector_list_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.text"
+    },
+    "third_sector_list_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.text"
+    },
+    "fourth_sector_list_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.text"
+    },
+    "expect_to_meet_cards_text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.text"
+    }
+  }
+}

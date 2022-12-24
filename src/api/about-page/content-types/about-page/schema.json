@@ -62,6 +62,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::speaker.speaker"
+    },
+    "venu_paragraph_1": {
+      "type": "text"
+    },
+    "venu_paragraph_2": {
+      "type": "text"
     }
   }
 }

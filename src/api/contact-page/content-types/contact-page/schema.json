@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "find_us_title": {
-      "type": "string"
-    },
     "find_us_area": {
       "type": "string"
     },
@@ -33,9 +30,6 @@
     "google_maps_location": {
       "type": "richtext"
     },
-    "about_nirvana_title": {
-      "type": "string"
-    },
     "about_nirvana_image": {
       "type": "media",
       "multiple": false,
@@ -53,16 +47,10 @@
     "nirvana_website": {
       "type": "string"
     },
-    "about_nirvana_second_title": {
-      "type": "string"
-    },
     "about_exhibition": {
       "type": "text"
     },
     "nirvana_website_text_to_display": {
-      "type": "string"
-    },
-    "title_of_innovation_team": {
       "type": "string"
     }
   }

@@ -49,6 +49,9 @@
         "both"
       ],
       "required": true
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

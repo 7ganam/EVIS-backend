@@ -24,11 +24,19 @@ module.exports = createCoreController(
           email,
         } = ctx.request.body.data;
 
-        await strapi.plugins["email"].services.email.send({
-          to: "evis@nirvanaholding.com",
-          from: "webmaster@nirvanatls.com",
-          subject: "Post Report downloaded",
-          text: `          
+        const admin_emails = [
+          "evis@nirvanaholding.com",
+          "7ganam@gmail.com",
+          "theanleoua.chu@nirvanatls.com",
+        ];
+        // console.log(`ctx.query`, admin_emails)
+        for (const email of admin_emails) {
+          console.log(`sending email to : `, email);
+          await strapi.plugins["email"].services.email.send({
+            to: email,
+            from: "webmaster@nirvanatls.com",
+            subject: "Post Report downloaded",
+            text: `          
           first_name: ${first_name}
           last_name: ${last_name}
           company: ${company}
@@ -36,7 +44,22 @@ module.exports = createCoreController(
           country: ${country}
           phone_number: ${phone_number}
           email: ${email}`,
-        });
+          });
+        }
+
+        // await strapi.plugins["email"].services.email.send({
+        //   to: "evis@nirvanaholding.com",
+        //   from: "webmaster@nirvanatls.com",
+        //   subject: "Post Report downloaded",
+        //   text: `
+        //   first_name: ${first_name}
+        //   last_name: ${last_name}
+        //   company: ${company}
+        //   job_title: ${job_title}
+        //   country: ${country}
+        //   phone_number: ${phone_number}
+        //   email: ${email}`,
+        // });
       } catch (error) {
         console.log("error :>> ", error);
       }

@@ -30,10 +30,10 @@ module.exports = createCoreController(
           "theanleoua.chu@nirvanatls.com",
         ];
         // console.log(`ctx.query`, admin_emails)
-        for (const email of admin_emails) {
-          console.log(`sending email to : `, email);
+        for (const adminEmail of admin_emails) {
+          console.log(`sending email to : `, adminEmail);
           await strapi.plugins["email"].services.email.send({
-            to: email,
+            to: adminEmail,
             from: "webmaster@nirvanatls.com",
             subject: "Post Report downloaded",
             text: `          

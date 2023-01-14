@@ -15,9 +15,6 @@
     "about": {
       "type": "text"
     },
-    "phone_number": {
-      "type": "string"
-    },
     "slug": {
       "type": "string"
     },
@@ -29,10 +26,12 @@
       "type": "string"
     },
     "image": {
-      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "company": {
       "type": "text"
@@ -42,7 +41,11 @@
     },
     "year": {
       "type": "enumeration",
-      "enum": ["year 2022", "year 2023", "both"],
+      "enum": [
+        "year 2022",
+        "year 2023",
+        "both"
+      ],
       "required": true
     }
   }

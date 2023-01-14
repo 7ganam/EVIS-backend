@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_ui_agenda_entries",
+  "info": {
+    "displayName": "agenda entry",
+    "icon": "calendar-week",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "day": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "start_time": {
+      "type": "time"
+    },
+    "speaker": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::speaker.speaker"
+    },
+    "end_time": {
+      "type": "time"
+    }
+  }
+}

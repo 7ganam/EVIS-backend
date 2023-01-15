@@ -35,11 +35,17 @@
       "type": "text"
     },
     "download_link": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "talks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.agenda-entry"
     }
   }
 }

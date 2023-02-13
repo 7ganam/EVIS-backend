@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_for_gateways",
+  "info": {
+    "singularName": "application-for-gateway",
+    "pluralName": "application-for-gateways",
+    "displayName": "application-for-gateway"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "exhibitor": {
+      "type": "string"
+    },
+    "focal_person": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "mobile_number": {
+      "type": "string"
+    },
+    "interest_area": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

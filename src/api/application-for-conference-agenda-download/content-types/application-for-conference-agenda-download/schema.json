@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "application_for_conference_agenda_downloads",
+  "info": {
+    "singularName": "application-for-conference-agenda-download",
+    "pluralName": "application-for-conference-agenda-downloads",
+    "displayName": "application-for-conference-agenda-download"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

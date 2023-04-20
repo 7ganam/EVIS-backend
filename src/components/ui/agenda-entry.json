@@ -24,9 +24,9 @@
     "start_time": {
       "type": "time"
     },
-    "speaker": {
+    "speakers": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::speaker.speaker"
     },
     "end_time": {

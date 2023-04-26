@@ -4,7 +4,8 @@
   "info": {
     "singularName": "header",
     "pluralName": "headers",
-    "displayName": "Header"
+    "displayName": "Header",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -37,6 +38,11 @@
       "component": "ui.header"
     },
     "PLAN_YOUR_VISIT": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.header"
+    },
+    "about": {
       "type": "component",
       "repeatable": false,
       "component": "ui.header"
